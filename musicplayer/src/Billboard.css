@@ -1,0 +1,39 @@
+.billboard {
+  /* display: flex;
+  flex-direction: row; */
+  color: rgb(17, 17, 71);
+  overflow-x: scroll;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.billboard::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.billboard {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.billboard > * {
+  margin-left: 20px;
+}
+/* .billboard :first-child {
+  margin-left: 0;
+} */
+
+.billboard .songcover__covers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.billboard__header > h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: rgb(17, 17, 71);
+}

@@ -1,0 +1,25 @@
+.account > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 200%;
+  object-fit: fill;
+  padding-left: 15px;
+}
+
+.account > h4 {
+  font-weight: 700;
+  align-self: center;
+  padding-left: 20px;
+  color: rgb(17, 17, 71);
+}
+
+.account > p {
+  align-self: center;
+  color: rgb(173, 172, 172);
+  padding-left: -20px;
+}
+.account {
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}

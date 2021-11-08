@@ -1,0 +1,6 @@
+node_modules/
+musicplayer/public/music/
+musicplayer/src/images/
+musicplayer/node_modules/
+musicplayer/public/music
+*.mp3
